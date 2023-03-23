@@ -1,0 +1,9 @@
+CREATE TABLE "category"(
+    "ategory_id" VARCHAR PRIMARY KEY NOT NULL,
+    "category_name" VARCHAR NOT NULL,
+);
+
+CREATE TABLE "Subcategory"(
+    "subcategory_id" VARCHAR PRIMARY KEY NOT NULL,
+    "subcategory_name" VARCHAR NOT NULL,
+);
